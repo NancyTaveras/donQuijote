@@ -1,0 +1,66 @@
+*{
+margin:0;
+padding:0;
+}
+#navbar {
+display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ;
+background-color:#4BBFBE;
+height:100px
+}
+.fotoPersonaje {
+width:50px;
+}
+.fotoGrande {
+width:100%;
+height:115%;
+}
+.dobleFoto img{
+width:100%;
+height:100%; 
+}
+
+.fotoIzquierda {
+width:50%;
+height:100%;
+float:left;
+}
+
+.fotoIzquierda img{
+width:100%;
+height:100%;
+}
+.fotoDerecha {
+width:50%;
+height:100%;
+float:right;
+}
+.fotoDerecha img{
+width:100%;
+height:100%;
+}
+
+a {
+color:white;
+font-family:'Great Vibes', cursive;
+font-size:22px;
+}
+.cita, h1 {
+font-size:70px;
+display: flex ;
+flex-direction: row ;
+flex-wrap: wrap ;
+justify-content: space-around ;
+align-items: center ;
+align-content: center ;
+font-family:'Great Vibes', cursive;
+}
+p {
+font-size:30px;
+font-family:'Great Vibes', cursive;
+}
+}
